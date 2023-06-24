@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(247, 238, 226);
+}
+a:hover {
+  text-decoration: none;
+}
+.content {
+  height: 1rem;
+  font-family: "Abel";
+  font-weight: 700;
+  font-size: 420%;
+}
+/* Services */
+.servicesMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 200%;
+}
+.servicesSecContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+.servicesSubContainer {
+  border: 2px solid white;
+  height: 25rem;
+  width: 40rem;
+  border-radius: 15px;
+  filter: drop-shadow(2px 2px 5px rgb(117, 117, 117));
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicesBtn {
+  margin-top: 4.5rem;
+  height: 3.2rem;
+  width: 17rem;
+  border-radius: 35px;
+  background: none;
+  border: 2px solid var(--mainBlue);
+  color: var(--mainBlue);
+  font-family: "Roboto Slab";
+  font-size: 90%;
+  filter: drop-shadow(1px 1px 1px var(--mainBlue));
+  transition: 0.4s;
+}
+.servicesBtnText:hover {
+  background-color: var(--mainBlue);
+  color: white;
+  filter: drop-shadow(1px 1px 5px black);
+}
+.servicesBtnText {
+  text-align: center;
+  margin-top: 4.5rem;
+  padding: 0.8rem 0;
+  width: 17rem;
+  border-radius: 35px;
+  background: none;
+  border: 2px solid var(--mainBlue);
+  color: var(--mainBlue);
+  font-family: "Roboto Slab";
+  font-size: 90%;
+  filter: drop-shadow(1px 1px 1px var(--mainBlue));
+  transition: 0.4s;
+}
